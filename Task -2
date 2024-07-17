@@ -74,7 +74,7 @@ int main() {
         if(values[1] == 'k') {
             printf("%f\n", value);
         } else if(values[1] == 'f') {
-            F = ((value - 273.15) * (9 / 5)) + 32;
+            F = (((value - 273.15) * 9) / 5)+ 32;
             printf("%f\n", F);
         } else {
             C = value - 273.15;
